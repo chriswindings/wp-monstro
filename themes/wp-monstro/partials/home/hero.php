@@ -7,12 +7,12 @@
  * @subpackage wp-monstro
  * @since 1.0.0
  */
-
+$content = require(get_template_directory() . "/models/home.php");
 ?>
 
 <section class="HomeHero">
   <div class="HomeHero-content">
-    <p class="HomeHero-preHeading">This is the preHeading</p>
-    <h1 class="HomeHeor-heading">This is the heading</h1>
+    <p class="HomeHero-preHeading"><?php echo $content["hero"]["preHeading"] ?></p>
+    <h1 class="HomeHero-heading"><?php echo $content["hero"]["heading"] ?></h1>
   </div>
 </section>

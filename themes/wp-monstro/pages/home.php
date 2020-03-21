@@ -12,7 +12,6 @@
 ?>
 
 <main>
-  <div>This is the home page</div> 
   <?php get_template_part( 'partials/home/hero'); ?>
 </main>
 

@@ -24,7 +24,7 @@
 <header>
     <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand mx-auto" href="#"><img src="/wp-content/uploads/2020/03/Montstro-logo.svg" alt="Monstro"></a>
-    <button class="navbar navbar-toggleable-sm" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar navbar-toggleable-sm collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 

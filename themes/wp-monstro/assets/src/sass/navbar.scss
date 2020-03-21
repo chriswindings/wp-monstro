@@ -2,6 +2,13 @@
 
 .navbar {
   background-color: $purple;
+  
+  button {
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
 
   .nav-link {
     color: white;
@@ -18,5 +25,13 @@
     top: 46px;
     right: 25px;
     z-index: 1030;
+  }
+
+  &.collapsed &-toggler-icon {
+    background-image: url('/wp-content/uploads/2020/03/hamburger-1.svg');
+  }
+
+  &-toggler-icon {
+    background-image: url('/wp-content/uploads/2020/03/close-1.svg')
   }
 }

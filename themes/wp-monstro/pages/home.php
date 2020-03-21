@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Skeleton Template
+ * Template Name: Home Page Template
  * Template Post Type: page
  *
  * @package WordPress
@@ -12,7 +12,8 @@
 ?>
 
 <main>
-  <div>This is the skeleton page</div> 
+  <div>This is the home page</div> 
+  <?php get_template_part( 'partials/home/hero'); ?>
 </main>
 
 <?php get_footer(); ?>

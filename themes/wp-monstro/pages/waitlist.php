@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home Page
+ * Template Name: Waitlist
  * Template Post Type: page
  *
  * @package WordPress
@@ -12,8 +12,7 @@
 ?>
 
 <main>
-  <?php get_template_part( 'partials/home/hero'); ?>
-  <?php get_template_part( 'partials/home/main'); ?>
+  <div>This is the Waitlist</div> 
 </main>
 
 <?php get_footer(); ?>

@@ -10,10 +10,16 @@
  ?>
 
  <footer class="Footer container">
-    <button class="navbar navbar-toggleable-sm collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <img class="Footer-logo" src="/wp-content/uploads/2020/03/Monstro.svg" alt="Monstro Logo">
+    <div class="Footer-buttonWrapper">
+      <a href="#">
+        <button class="Footer-buttonToTop" type="button">
+          <img class="Footer-buttonImage" src="/wp-content/uploads/2020/03/up-arrow.svg" alt="up-arrow">
+        </button>
+      </a>
+    </div>
+    <div class="Footer-logoWrapper">
+      <img class="Footer-logo" src="/wp-content/uploads/2020/03/Monstro.svg" alt="Monstro Logo"> 
+    </div>
     <div class="Footer-socialIcons">
       <p>Don't forget to add those social icons.</p>
     </div>

@@ -17,6 +17,7 @@ const baseConfiguration = {
     filename: '[name].min.js',
     path: path.join(__dirname, distPath, '/js')
   },
+  watch: true,
   plugins: [
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: [path.join(__dirname, distPath)]

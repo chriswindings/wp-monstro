@@ -17,6 +17,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "build": "webpack --config webpack.common.js --progress"
+    "build": "webpack --config webpack.common.js --progress",
+    "watch": "webpack --config webpack.common.js --progress --watch"
   }
 }

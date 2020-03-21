@@ -1,7 +1,9 @@
-.navbar {
-  background-color: green;
-}
+@import './variables.scss';
 
-body {
-  background-color: green;
+.navbar {
+  background-color: $purple;
+
+  &-brand {
+    margin: 0 auto;
+  }
 }

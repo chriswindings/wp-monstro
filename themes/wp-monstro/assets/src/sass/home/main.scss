@@ -1,7 +1,7 @@
 @import '../theme/index.scss';
 
 .HomeMain {
-  background-image: linear-gradient(to bottom, #211832, #a98e7f);
+  background-image: $ps-gradient;
 
   &-heading {
     color: $gold;

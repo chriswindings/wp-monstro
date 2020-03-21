@@ -1,0 +1,8 @@
+.btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &-primary {
+        text-transform: uppercase;
+        color: $gold;
+    }
+}

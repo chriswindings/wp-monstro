@@ -11,6 +11,7 @@ const baseConfiguration = {
   context: path.join(__dirname, srcPath),
   entry: {
     navbar: ['./sass/navbar.scss'],
+    global: ['./sass/global.scss']
   },
   mode: 'production',
   output: {

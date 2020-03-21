@@ -1,4 +1,4 @@
-@import '../variables.scss';
+@import '../theme/index.scss';
 
 .HomeHero {
   background-image: url('/wp-content/uploads/2020/03/home-page-hero.png');
@@ -21,14 +21,14 @@
   }
 
   &-preHeading {
-    font-family: OpenSans;
+    font-family: $font-family-sans-serif;
     font-size: 19px;
     line-height: 1.47;
     margin-bottom: 12px;
   }
 
   &-heading {
-    font-family: RedHatDisplay;
+    font-family: $headings-font-family;
     font-size: 48px;
     font-weight: bold;
   }

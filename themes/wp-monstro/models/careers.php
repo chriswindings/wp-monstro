@@ -2,7 +2,7 @@
 return [
   "hero" => [
     "preHeading" => "DISRUPT WITH US:",
-    "heading" => "We're Hiring"
+    "heading" => "We’re Hiring"
   ],
   "jobs" => [
     [

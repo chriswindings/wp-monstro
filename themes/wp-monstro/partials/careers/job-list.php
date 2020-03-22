@@ -27,10 +27,10 @@ $jobsContent = $content["jobs"]
               </div>
             </div>
             <div class="Job-ctas">
-              <a href="#" class="Job-cta Job-viewDetails btn btn-outline-secondary">
+              <a href="<?php echo $job["pageLink"] ?>" class="Job-cta Job-viewDetails btn btn-outline-secondary">
                 VIEW DETAILS
               </a>
-              <a href="#" class="Job-cta Job-linkedIn btn btn-primary">
+              <a href="<?php echo $job["linkedInLink"] ?>" class="Job-cta Job-linkedIn btn btn-primary">
                 <img class="Job-linkedInImage" src="/wp-content/uploads/2020/03/icon-btn-applyLI@3x.svg">Apply
               </a>
             </div>

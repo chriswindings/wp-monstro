@@ -9,25 +9,29 @@ return [
       "title" => "Financial, Legal and Tax Technical Specialist",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
-      "linkedInLink" => "#"
+      "linkedInLink" => "#",
+      "pageLink" => "#"
     ],
     [
       "title" => "Back End Engineer",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
-      "linkedInLink" => "#"
+      "linkedInLink" => "#",
+      "pageLink" => "#"
     ],
     [
       "title" => "Front End Lead",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
-      "linkedInLink" => "#"
+      "linkedInLink" => "#",
+      "pageLink" => "#"
     ],
     [
       "title" => "UX Designer",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
-      "linkedInLink" => "#"
+      "linkedInLink" => "#",
+      "pageLink" => "#"
     ]
   ]
 ]

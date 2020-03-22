@@ -1,3 +1,7 @@
 @import './colors.scss';
 @import './typography.scss';
 @import './buttons.scss';
+
+@import "node_modules/bootstrap/scss/functions.scss";
+@import "node_modules/bootstrap/scss/variables.scss";
+@import "node_modules/bootstrap/scss/mixins.scss";

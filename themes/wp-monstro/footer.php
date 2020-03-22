@@ -24,9 +24,9 @@
       <p>Don't forget to add those social icons.</p>
     </div>
     <div class="Footer-links">
-      <a class="Footer-link" href="#">Privacy Policy</a>
+      <a class="Footer-link" href="/privacy-policy">Privacy Policy</a>
       <span class="Footer-divider">|</span>
-      <a class="Footer-link" href="#">Disclosures</a>
+      <a class="Footer-link" href="/disclosures">Disclosures</a>
     </div>
     <div class="Footer-copyright">
       <span class="Footer-copyrightText">Copyright © 2020 Monstro, LLC. All Rights Reserved</span>

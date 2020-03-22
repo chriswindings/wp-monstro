@@ -1,4 +1,4 @@
-@import '../theme/index.scss';
+@import '../theme/monstro-design-system.scss';
 
 .HomeHero {
   background-image: url('/wp-content/uploads/2020/03/home-page-hero.png');
@@ -8,6 +8,11 @@
   background-position: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    background-image: url('/wp-content/uploads/2020/03/home-hero-desktop.png');
+  }
 
   &-content {
     display: flex;
@@ -16,8 +21,16 @@
     align-items: center;
     color: white;
     text-align: center;
-    margin-bottom: 165px;
-    margin-top: 177px;
+    margin: 177px auto 165px;
+    max-width: 750px;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 31px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 185px;
+    }
   }
 
   &-preHeading {
@@ -25,16 +38,29 @@
     font-size: 19px;
     line-height: 1.47;
     margin-bottom: 12px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 25px;
+      line-height: 2.2;
+    }
   }
 
   &-heading {
     font-family: $headings-font-family;
     font-size: 48px;
     font-weight: bold;
+
+    @include media-breakpoint-up(md) {
+      font-size: 64px;
+    }
   }
 
   &-cta {
     width: 311px;
     margin: 0 auto 40px;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 275px;
+    }
   }
 }

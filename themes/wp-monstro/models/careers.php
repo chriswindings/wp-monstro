@@ -10,28 +10,28 @@ return [
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
       "linkedInLink" => "#",
-      "pageLink" => "#"
+      "jobPageLink" => "#"
     ],
     [
       "title" => "Back End Engineer",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
       "linkedInLink" => "#",
-      "pageLink" => "#"
+      "jobPageLink" => "#"
     ],
     [
       "title" => "Front End Lead",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
       "linkedInLink" => "#",
-      "pageLink" => "#"
+      "jobPageLink" => "#"
     ],
     [
       "title" => "UX Designer",
       "location" => "ATLANTA, GA",
       "type" => "FULL-TIME",
       "linkedInLink" => "#",
-      "pageLink" => "#"
+      "jobPageLink" => "#"
     ]
   ]
 ]

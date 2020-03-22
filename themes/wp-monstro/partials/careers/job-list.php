@@ -27,7 +27,7 @@ $jobsContent = $content["jobs"]
               </div>
             </div>
             <div class="Job-ctas">
-              <a href="<?php echo $job["pageLink"] ?>" class="Job-cta Job-viewDetails btn btn-outline-secondary">
+              <a href="<?php echo $job["jobPageLink"] ?>" class="Job-cta Job-viewDetails btn btn-outline-secondary">
                 VIEW DETAILS
               </a>
               <a href="<?php echo $job["linkedInLink"] ?>" class="Job-cta Job-linkedIn btn btn-primary">

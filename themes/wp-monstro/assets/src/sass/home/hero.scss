@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 100px auto 165px
+    margin: 100px auto 165px;
     max-width: 750px;
 
     @include media-breakpoint-up(md) {
@@ -55,7 +55,7 @@
   }
 
   &-cta {
-    width: 311px;
+    width: 300px;
     margin: 0 auto 40px;
 
     @include media-breakpoint-up(lg) {

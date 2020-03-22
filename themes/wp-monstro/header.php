@@ -30,13 +30,13 @@
             </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="/waitlist">Waitlist <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/careers">Careers</a>
-            </li>
+            <ul class="navbar-nav mr-auto mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/waitlist">Waitlist <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/careers">Careers</a>
+                </li>
             </ul>
             <div class="mb-5">
                 <a href="#" class="ml-1 mr-1"><img src="/wp-content/uploads/2020/03/faceook-icon.svg" alt="facebook"></img></a>

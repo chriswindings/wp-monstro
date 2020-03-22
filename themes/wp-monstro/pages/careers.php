@@ -12,7 +12,8 @@
 ?>
 
 <main>
-  <div>This is the Careers page</div> 
+  <?php get_template_part( 'partials/careers/hero'); ?>
+  <?php get_template_part( 'partials/careers/job-list'); ?>
 </main>
 
 <?php get_footer(); ?>

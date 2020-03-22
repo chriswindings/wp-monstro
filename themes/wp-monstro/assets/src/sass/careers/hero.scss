@@ -1,0 +1,35 @@
+@import '../theme/monstro-design-system.scss';
+
+.CareersHero {
+  padding-top: 165px;
+  padding-bottom: 131px;
+  color: white;
+  text-align: center;
+  background-image: url('/wp-content/uploads/2020/03/Careers-hero-desktop.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-preHeading {
+    font-size: 20px;
+    line-height: 2.75;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      font-size: 25px;
+      line-height: 2.2;
+    }
+  }
+
+  &-heading {
+    font-size: 48px;
+    line-height: 1.33;
+    font-family: $headings-font-family;
+
+    @include media-breakpoint-up(md) {
+      font-size: 64px;
+      line-height: 1;
+    }
+  }
+}

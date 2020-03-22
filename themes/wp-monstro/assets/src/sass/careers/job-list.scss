@@ -1,0 +1,79 @@
+@import '../theme/monstro-design-system.scss';
+
+.CareersJobs {
+
+  @include media-breakpoint-up(md) {
+    margin-top: 61px;
+  }
+
+  .Job {
+    margin-top: 33px;
+
+    @include media-breakpoint-up(md) {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 39px;
+    }
+
+    &-title {
+      font-size: 24px;
+      line-height: 1.17;
+      color: $job-text-color;
+
+      @include media-breakpoint-up(md) {
+        font-size: 32px;
+        line-height: 1.16;
+        max-width: 385px;
+        margin-bottom: 13px;
+      }
+    }
+
+    &-details {
+      font-size: 13px;
+      letter-spacing: 0.81px;
+      color: $gold;
+      margin-bottom: 27px;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: 37px;
+      }
+    }
+
+    &-viewDetails {
+      border-width: 2px;
+      font-size: 16px;
+      letter-spacing: 2px;
+      margin-right: 10px;
+    }
+
+    &-linkedIn {
+      background-color: $linkedIn-blue;
+      border-color: $linkedIn-blue;
+      color: white;
+    }
+
+    &-linkedInImage {
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    &-ctas {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 28px;
+
+      @include media-breakpoint-up(md) {
+        display: block;
+      }
+    }
+
+    &-cta {
+      flex-grow: 1;
+    }
+
+    &-divider {
+      width: 100%;
+      border-bottom: 1px solid #979797;
+    }
+  }
+}

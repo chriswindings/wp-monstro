@@ -9,11 +9,18 @@
 
  ?><!DOCTYPE html>
  <html <?php language_attributes(); ?>>
+  <?php 
+    function add_prefinery_js() {
+        ?>
+        <script type="text/javascript" src="https://widget.prefinery.com/widget/v2/yxzyf2su.js" async defer></script>
+        <?php
+    }
+    add_action('wp_head', 'add_prefinery_js');
+    ?>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <?php wp_head(); ?>
-  <?php wp_enqueue_style('navbar', get_stylesheet_directory() . 'assets/dist/css/navbar.min.css' ) ?>
 </head>
 
 <body <?php body_class() ?>>

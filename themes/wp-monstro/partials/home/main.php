@@ -23,6 +23,7 @@ $mainContent = $content["main"]
       </div>
       <div class="col-md-6">
         <p>This is a column</p>
+        <div class='prefinery-form-embed'></div>
       </div>
     </div>
   </div>

@@ -21,7 +21,7 @@
       <img class="Footer-logo" src="/wp-content/uploads/2020/03/Monstro.svg" alt="Monstro Logo"> 
     </div>
     <div class="Footer-socialIcons">
-      <p>Don't forget to add those social icons.</p>
+      <?php get_template_part( 'partials/social-icons'); ?>
     </div>
     <div class="Footer-links">
       <a class="Footer-link" href="/privacy-policy">Privacy Policy</a>

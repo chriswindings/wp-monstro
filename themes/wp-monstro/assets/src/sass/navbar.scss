@@ -6,6 +6,12 @@
   width: 100%;
   z-index: 2;
   padding-top: 18px;
+
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    padding-top: 39px;
+    background-color: transparent;
+  }
   
   button {
     border: none;
@@ -19,17 +25,43 @@
   }
 
   &-nav {
-    margin-bottom: 23rem;
+    margin-bottom: 208px;
+    margin-top: 100px;
+    margin-right: auto;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+      margin-right: 0;
+    }
   }
 
   .nav-link {
     color: white;
     font-size: 16px;
     font-weight: bold;
+    letter-spacing: 2px;
+    font-family: $btn-font-family;
+    margin-bottom: 47px;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(md) {
+      color: $gold;
+      margin-bottom: 0;
+    }
+  }
+
+  .nav-item {
+    @include media-breakpoint-up(md) {
+      margin-right: 9px;
+    }
   }
 
   &-collapse {
     text-align: center;
+
+    @include media-breakpoint-up(md) {
+      justify-content: flex-end;
+    }
   }
 
   &-toggleable-sm {

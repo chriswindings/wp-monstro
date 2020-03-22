@@ -1,12 +1,18 @@
 @import '../theme/monstro-design-system.scss';
 
 .CareersJobs {
+
+  @include media-breakpoint-up(md) {
+    margin-top: 61px;
+  }
+
   .Job {
     margin-top: 33px;
 
     @include media-breakpoint-up(md) {
       display: flex;
       justify-content: space-between;
+      margin-top: 39px;
     }
 
     &-title {
@@ -18,6 +24,7 @@
         font-size: 32px;
         line-height: 1.16;
         max-width: 385px;
+        margin-bottom: 13px;
       }
     }
 
@@ -26,6 +33,10 @@
       letter-spacing: 0.81px;
       color: $gold;
       margin-bottom: 27px;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: 37px;
+      }
     }
 
     &-viewDetails {

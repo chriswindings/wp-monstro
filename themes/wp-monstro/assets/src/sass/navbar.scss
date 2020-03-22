@@ -2,12 +2,24 @@
 
 .navbar {
   background-color: $purple;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding-top: 18px;
   
   button {
     border: none;
     &:focus {
       outline: none;
     }
+  }
+
+  &-brand {
+    z-index: 10;
+  }
+
+  &-nav {
+    margin-bottom: 23rem;
   }
 
   .nav-link {
@@ -21,17 +33,17 @@
   }
 
   &-toggleable-sm {
+    background-color: $purple;
     position: absolute;
-    top: 18px;
+    top: 24px;
     right: 25px;
-    z-index: 1030;
+    &.collapsed .navbar-toggler-icon {
+      background-image: url('/wp-content/uploads/2020/03/hamburger-1.svg');
+    }
   }
 
-  &.collapsed &-toggler-icon {
-    background-image: url('/wp-content/uploads/2020/03/hamburger-1.svg');
-  }
 
   &-toggler-icon {
-    background-image: url('/wp-content/uploads/2020/03/close-1.svg')
+    background-image: url('/wp-content/uploads/2020/03/close-1.svg');
   }
 }

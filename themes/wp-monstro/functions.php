@@ -9,3 +9,39 @@ wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Open+S
 
 // wp_enqueue_style( 'bootstrap', '/wp-content/themes/wp-monstro/node_modules/bootstrap/dist/css/bootstrap.min.css');
 wp_enqueue_script('bootstrap', '/wp-content/themes/wp-monstro/node_modules/bootstrap/dist/js/bootstrap.bundle.js', array('jquery'));
+
+
+
+/*Custom Post type start*/
+function cw_post_type_careers() {
+    $supports = array(
+    'title', // post title
+    'custom-fields', // custom fields
+    );
+    $labels = array(
+    'name' => _x('careers', 'plural'),
+    'singular_name' => _x('careers', 'singular'),
+    'menu_name' => _x('careers', 'admin menu'),
+    'name_admin_bar' => _x('careers', 'admin bar'),
+    'add_new' => _x('Add New', 'add new'),
+    'add_new_item' => __('Add New careers'),
+    'new_item' => __('New careers'),
+    'edit_item' => __('Edit careers'),
+    'view_item' => __('View careers'),
+    'all_items' => __('All careers'),
+    'search_items' => __('Search careers'),
+    'not_found' => __('No careers found.'),
+    );
+    $args = array(
+    'supports' => $supports,
+    'labels' => $labels,
+    'public' => true,
+    'query_var' => true,
+    'rewrite' => array('slug' => 'careers'),
+    'has_archive' => true,
+    'hierarchical' => false,
+    );
+    register_post_type('careers', $args);
+}
+    add_action('init', 'cw_post_type_careers');
+    /*Custom Post type end*/

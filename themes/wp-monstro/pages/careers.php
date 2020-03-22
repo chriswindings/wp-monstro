@@ -12,7 +12,7 @@
 ?>
 
 <main>
-  <div>This is the Careers page</div> 
+  <?php get_template_part( 'partials/careers/hero'); ?>
 </main>
 
 <?php get_footer(); ?>

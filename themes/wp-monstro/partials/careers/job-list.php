@@ -16,13 +16,15 @@ $jobsContent = $content["jobs"]
     <div class="CareersJobs-content">
       <?php foreach($jobsContent as $job) {
         ?>
-        
+
           <div class="Job">
-            <h2 class="Job-title"><?php echo $job["title"] ?></h2>
-            <div class="Job-details">
-              <span class="Job-location"><?php echo $job["location"] ?></span>
-              <span class="Job-detailsSeperator"> • </span>
-              <span class="Job-type"><?php echo $job["type"] ?></span>
+            <div class="Job-half">
+              <h2 class="Job-title"><?php echo $job["title"] ?></h2>
+              <div class="Job-details">
+                <span class="Job-location"><?php echo $job["location"] ?></span>
+                <span class="Job-detailsSeperator"> • </span>
+                <span class="Job-type"><?php echo $job["type"] ?></span>
+              </div>
             </div>
             <div class="Job-ctas">
               <a href="#" class="Job-cta Job-viewDetails btn btn-outline-secondary">

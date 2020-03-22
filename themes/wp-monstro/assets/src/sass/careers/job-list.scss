@@ -4,10 +4,21 @@
   .Job {
     margin-top: 33px;
 
+    @include media-breakpoint-up(md) {
+      display: flex;
+      justify-content: space-between;
+    }
+
     &-title {
       font-size: 24px;
       line-height: 1.17;
       color: $job-text-color;
+
+      @include media-breakpoint-up(md) {
+        font-size: 32px;
+        line-height: 1.16;
+        max-width: 385px;
+      }
     }
 
     &-details {
@@ -39,6 +50,10 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 28px;
+
+      @include media-breakpoint-up(md) {
+        display: block;
+      }
     }
 
     &-cta {

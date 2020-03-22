@@ -3,6 +3,12 @@
 .Footer {
   text-align: center;
 
+  @include media-breakpoint-up(md) {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+  }
+
   &-links {
     margin-bottom: 13px;
   }
@@ -47,5 +53,15 @@
 
   &-socialIcons {
     margin-bottom: 31px;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &-half {
+    @include media-breakpoint-up(md) {
+      margin-top: 65px;
+    }
   }
 }

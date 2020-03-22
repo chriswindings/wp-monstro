@@ -4,6 +4,7 @@ wp_enqueue_style('navbar', get_stylesheet_directory_uri() . '/assets/dist/css/na
 wp_enqueue_style('footer', get_stylesheet_directory_uri() . '/assets/dist/css/footer.min.css' );
 wp_enqueue_style('home-page', get_stylesheet_directory_uri() . '/assets/dist/css/home.min.css' );
 wp_enqueue_style('careers-page', get_stylesheet_directory_uri() . '/assets/dist/css/careers.min.css' );
+wp_enqueue_style('careers-single-page', get_stylesheet_directory_uri() . '/assets/dist/css/careersSingle.min.css' );
 wp_enqueue_style('main', get_stylesheet_uri() );
 wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans|Red+Hat+Display:700|Red+Hat+Text:400,700&display=swap');
 

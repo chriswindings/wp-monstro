@@ -14,7 +14,8 @@ const baseConfiguration = {
     footer: ['./sass/footer.scss'],
     global: ['./sass/global.scss'],
     home: ['./sass/home/page.scss'],
-    careers: ['./sass/careers/page.scss']
+    careers: ['./sass/careers/page.scss'],
+    careersSingle: ['./sass/careers/single/page.scss']
   },
   mode: 'production',
   output: {

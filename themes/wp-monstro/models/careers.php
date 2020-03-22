@@ -13,15 +13,15 @@ query_posts(array(
 
 while (have_posts()) : the_post();
 
-$job = [
-  "title" => get_field('title'),
-  "location" => get_field('location'),
-  "type" => get_field('type'),
-  "linkedInLink" => get_field('linkedInLink'),
-  "jobPageLink" => get_permalink(),
-  "sortOrder" => get_field("sortOrder")
-];
-array_push($data["jobs"], $job);
+  $job = [
+    "title" => get_field('title'),
+    "location" => get_field('location'),
+    "type" => get_field('type'),
+    "linkedInLink" => get_field('linkedInLink'),
+    "jobPageLink" => get_permalink(),
+    "sortOrder" => get_field("sortOrder")
+  ];
+  array_push($data["jobs"], $job);
 endwhile;
 
 // sort the array by the sortOrder

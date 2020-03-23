@@ -2,23 +2,23 @@
 return [
   "facebook" => [
     "icon" => "/wp-content/uploads/2020/03/faceook-icon-1.svg",
-    "link" => "#",
+    "link" => "https://www.facebook.com/MonstroAi/?modal=admin_todo_tour",
     "alt" => 'facebook'
   ],
   "twitter" => [
     "icon" => "/wp-content/uploads/2020/03/twitter-icon-1.svg",
-    "link" => "#",
+    "link" => "https://twitter.com/MonstroAI ",
     "alt" => 'twitter'
   ],
   "linkedIn" => [
     "icon" => "/wp-content/uploads/2020/03/linkedIn-icon-1.svg",
-    "link" => "#",
+    "link" => "https://www.linkedin.com/company/monstroai/ ",
     "alt" => 'linkedIn'
   ],
   "instagram" => [
     "icon" => "/wp-content/uploads/2020/03/instagram-icon-1.svg",
-    "link" => "#",
-    "alt" => 'instagrom'
+    "link" => "https://www.instagram.com/monstro.ai/",
+    "alt" => 'instagram'
   ]
 ]
 ?>

@@ -10,8 +10,6 @@ wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Open+S
 
 wp_enqueue_script('bootstrap', '/wp-content/themes/wp-monstro/node_modules/bootstrap/dist/js/bootstrap.bundle.js', array('jquery'));
 
-
-
 /*Custom Post type start*/
 function cw_post_type_careers() {
     $supports = array(

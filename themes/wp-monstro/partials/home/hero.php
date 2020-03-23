@@ -17,6 +17,6 @@ $heroContent = $content["hero"]
       <p class="HomeHero-preHeading"><?php echo $heroContent["preHeading"] ?></p>
       <h1 class="HomeHero-heading"><?php echo $heroContent["heading"] ?></h1>
     </div>
-    <button type="button" class="HomeHero-cta btn btn-primary">Let us Show You</button>
+    <a href="#waitlist" class="HomeHero-cta btn btn-primary">Let us Show You</a>
   </div>
 </section>

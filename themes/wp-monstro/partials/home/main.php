@@ -22,7 +22,7 @@ $mainContent = $content["main"]
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card shadow-lg PrefineryForm mb-5" style="max-width: 22rem">
+        <div id="waitlist" class="card shadow-lg PrefineryForm mb-5" style="max-width: 22rem">
           <div class='prefinery-form-embed PrefineryForm-container'></div>
           <!-- <div>
             <img />

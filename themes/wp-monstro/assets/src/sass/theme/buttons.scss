@@ -7,5 +7,10 @@
     &-primary {
         text-transform: uppercase;
         color: $gold;
+
+        &:hover, &:focus {
+            color: $gold;
+            background-color: #68567B;
+        }
     }
 }

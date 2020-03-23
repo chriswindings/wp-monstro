@@ -30,5 +30,10 @@
     font-family: $btn-font-family;
     margin-bottom: 20px;
     display: inline-block;
+
+    &:hover {
+      color: $gold;
+      text-decoration: none;
+    }
   }
 }

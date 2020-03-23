@@ -2,4 +2,6 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
-
+html {
+    scroll-behavior: smooth;
+}

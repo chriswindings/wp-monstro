@@ -3,19 +3,32 @@
 .CareersContent {
   &-accordianHeading {
     font-size: 20px;
-    margin-top: 26px;
-    margin-bottom: 19px;
+    padding-top: 26px;
+    padding-bottom: 19px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
 
   &-accordianHeadingButton {
     width: 100%;
     text-align: left;
-    display: flex;
-    justify-content: space-between;
   }
 
   &-cardBody {
     padding-top: 0;
+    font-size: 15px;
+    line-height: 1.47;
+    opacity: 0.9;
+    color: #3f324d;
+  }
+
+  &-listItem {
+    margin-bottom: 10px;
+  }
+
+  &-cardContainer {
+    cursor: pointer;
   }
 
   &-accordianHeadingButton.collapsed{
@@ -36,5 +49,26 @@
     .CareersContent-accordianHeadingImage--closed {
       display: none;
     }
+  }
+
+  &-linkedIn {
+    background-color: $linkedIn-blue;
+    border-color: $linkedIn-blue;
+    color: white;
+    width: 100%;
+
+    &:hover, &:focus {
+      background-color: darken($color: $linkedIn-blue, $amount: 10);
+    }
+  }
+
+  &-linkedInImage {
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  &-cta {
+    margin-top: 25px;
+    margin-bottom: 38px;
   }
 }

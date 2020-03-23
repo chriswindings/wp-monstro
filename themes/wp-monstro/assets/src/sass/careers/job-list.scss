@@ -50,6 +50,10 @@
       background-color: $linkedIn-blue;
       border-color: $linkedIn-blue;
       color: white;
+
+      &:hover, &:focus {
+        background-color: darken($color: $linkedIn-blue, $amount: 10);
+      }
     }
 
     &-linkedInImage {

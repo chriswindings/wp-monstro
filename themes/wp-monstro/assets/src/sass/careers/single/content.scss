@@ -1,0 +1,96 @@
+@import '../../theme/monstro-design-system.scss';
+
+.CareersContent {
+  &-accordianHeading {
+    font-size: 20px;
+    padding-top: 26px;
+    padding-bottom: 19px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &-accordianHeadingButton {
+    width: 100%;
+    text-align: left;
+  }
+
+  &-cardBody {
+    padding-top: 0;
+    font-size: 15px;
+    line-height: 1.47;
+    opacity: 0.9;
+    color: #3f324d;
+  }
+
+  &-listItem {
+    margin-bottom: 10px;
+  }
+
+  &-cardContainer {
+    cursor: pointer;
+  }
+
+  &-accordianHeadingButton.collapsed{
+    .CareersContent-accordianHeadingImage--open {
+      display: none;
+    }
+
+    .CareersContent-accordianHeadingImage--closed {
+      display: inline-block;
+    }
+  }
+
+  &-accordianHeadingButton{
+    .CareersContent-accordianHeadingImage--open {
+      display: inline-block;
+    }
+
+    .CareersContent-accordianHeadingImage--closed {
+      display: none;
+    }
+  }
+
+  &-linkedIn {
+    background-color: $linkedIn-blue;
+    border-color: $linkedIn-blue;
+    color: white;
+    width: 100%;
+
+    &:hover, &:focus {
+      background-color: darken($color: $linkedIn-blue, $amount: 10);
+    }
+  }
+
+  &-linkedInImage {
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  &-cta {
+    margin-top: 25px;
+    margin-bottom: 38px;
+  }
+}
+
+
+.CareerSingleContent {
+  margin-top: 61px;
+
+  &-sectionDivider {
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+  }
+
+  &-sectionTitle {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  &-section {
+    color: #3f324d;
+    font-size: 16px;
+  }
+}

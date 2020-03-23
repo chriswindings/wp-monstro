@@ -8,7 +8,7 @@
  * @since 1.0.0
  */
 $content = require(get_template_directory() . "/models/careers.php");
-$jobsContent = $content["jobs"]
+$jobsContent = $content["jobs"];
 ?>
 
 <section class="CareersJobs">

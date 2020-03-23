@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Privacy Policy
+ * Template Name: Policies
  * Template Post Type: page
  *
  * @package WordPress
@@ -12,7 +12,8 @@
 ?>
 
 <main>
-  <div>This is the Provacy Policy page</div> 
+  <?php get_template_part( 'partials/policies/hero'); ?>
+  <?php get_template_part( 'partials/policies/main'); ?>
 </main>
 
 <?php get_footer(); ?>

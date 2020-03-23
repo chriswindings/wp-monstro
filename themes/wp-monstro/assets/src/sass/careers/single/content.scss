@@ -1,0 +1,40 @@
+@import '../../theme/monstro-design-system.scss';
+
+.CareersContent {
+  &-accordianHeading {
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 19px;
+  }
+
+  &-accordianHeadingButton {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-cardBody {
+    padding-top: 0;
+  }
+
+  &-accordianHeadingButton.collapsed{
+    .CareersContent-accordianHeadingImage--open {
+      display: none;
+    }
+
+    .CareersContent-accordianHeadingImage--closed {
+      display: inline-block;
+    }
+  }
+
+  &-accordianHeadingButton{
+    .CareersContent-accordianHeadingImage--open {
+      display: inline-block;
+    }
+
+    .CareersContent-accordianHeadingImage--closed {
+      display: none;
+    }
+  }
+}

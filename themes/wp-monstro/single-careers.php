@@ -13,6 +13,7 @@
 
 <main>
   <?php get_template_part( 'partials/careers/single/hero'); ?>
+  <?php get_template_part( 'partials/careers/single/content'); ?>
 </main>
 
 

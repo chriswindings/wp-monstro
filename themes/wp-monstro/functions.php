@@ -9,6 +9,7 @@ wp_enqueue_style('main', get_stylesheet_uri() );
 wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans|Red+Hat+Display:700|Red+Hat+Text:400,700&display=swap');
 
 wp_enqueue_script('bootstrap', '/wp-content/themes/wp-monstro/node_modules/bootstrap/dist/js/bootstrap.bundle.js', array('jquery'));
+wp_enqueue_script('gtm', 'https://www.googletagmanager.com/gtag/js?id=UA-161742203-1');
 
 /*Custom Post type start*/
 function cw_post_type_careers() {

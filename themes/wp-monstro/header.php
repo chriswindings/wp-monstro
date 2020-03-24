@@ -34,7 +34,7 @@
         <div class="container">
             <a class="navbar-brand mx-auto" href="/">
                 <img class="d-md-none" src="/wp-content/uploads/2020/03/Montstro-logo.svg" alt="Monstro">
-                <img class="d-none d-md-block" src="/wp-content/uploads/2020/03/nav-logo-desktop.svg" alt="Monstro">
+                <img class="d-none d-md-block" src="/wp-content/uploads/2020/03/logo-header-desktop.svg" alt="Monstro">
             </a>
             <button class="navbar-toggleable-sm collapsed d-md-none" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

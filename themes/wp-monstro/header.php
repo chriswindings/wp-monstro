@@ -24,8 +24,10 @@
         $title = get_the_title();
 
         if(is_archive()){
-			echo 'Careers';
-		} else{ echo $title; }
+		    $title = 'Careers';
+        } 
+        
+        echo $title;
 
     ?></title>
   <?php wp_head(); ?>

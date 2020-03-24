@@ -23,9 +23,9 @@
   <title><?php bloginfo('name') ?> | <?php 
         $title = get_the_title();
 
-        if($title == 'Monstro | Home'){
-            bloginfo('description');
-        } else{ wp_title(false); }
+        if(is_archive()){
+			echo 'Careers';
+		} else{ echo $title; }
 
     ?></title>
   <?php wp_head(); ?>

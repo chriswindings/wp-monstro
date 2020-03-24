@@ -12,7 +12,7 @@ const baseConfiguration = {
   entry: {
     navbar: ['./sass/navbar.scss'],
     footer: ['./sass/footer.scss'],
-    global: ['./sass/global.scss'],
+    global: ['./sass/global.scss', './js/global.js'],
     home: ['./sass/home/page.scss'],
     careers: ['./sass/careers/page.scss'],
     careersSingle: ['./sass/careers/single/page.scss']

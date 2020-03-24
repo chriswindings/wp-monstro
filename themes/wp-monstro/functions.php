@@ -9,7 +9,8 @@ wp_enqueue_style('main', get_stylesheet_uri() );
 wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans|Red+Hat+Display:700|Red+Hat+Text:400,700&display=swap');
 
 wp_enqueue_script('bootstrap', '/wp-content/themes/wp-monstro/node_modules/bootstrap/dist/js/bootstrap.bundle.js', array('jquery'));
-wp_enqueue_script('gtm', 'https://www.googletagmanager.com/gtag/js?id=UA-161742203-1');
+wp_enqueue_script('gtm', 'https://www.googletagmanager.com/gtag/js?id=UA-161742203-1#asyncload');
+wp_enqueue_script('global-js', get_stylesheet_directory_uri() . '/assets/dist/js/global.min.js');
 
 /*Custom Post type start*/
 function cw_post_type_careers() {
@@ -44,3 +45,14 @@ function cw_post_type_careers() {
 }
     add_action('init', 'cw_post_type_careers');
     /*Custom Post type end*/
+
+function add_async_forscript($url)
+{
+    if (strpos($url, '#asyncload')===false)
+        return $url;
+    else if (is_admin())
+        return str_replace('#asyncload', '', $url);
+    else
+        return str_replace('#asyncload', '', $url)."' async='async"; 
+}
+add_filter('clean_url', 'add_async_forscript', 11, 1);

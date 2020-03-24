@@ -55,6 +55,10 @@
       &:hover, &:focus {
         background-color: darken($color: $linkedIn-blue, $amount: 10);
       }
+
+      @include media-breakpoint-up(lg) {
+        width: 150px;
+      }
     }
 
     &-linkedInImage {

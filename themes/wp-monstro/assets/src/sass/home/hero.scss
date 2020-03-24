@@ -58,6 +58,7 @@
   &-cta {
     width: 300px;
     margin: 0 auto 40px;
+    background-color: #120d1c;
 
     @include media-breakpoint-up(lg) {
       margin-bottom: 275px;

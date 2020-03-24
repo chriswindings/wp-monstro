@@ -2,7 +2,7 @@
 return [
   "facebook" => [
     "icon" => "/wp-content/uploads/2020/03/faceook-icon-1.svg",
-    "link" => "https://www.facebook.com/MonstroAi/?modal=admin_todo_tour",
+    "link" => "https://www.facebook.com/MonstroAi/ ",
     "alt" => 'facebook'
   ],
   "twitter" => [

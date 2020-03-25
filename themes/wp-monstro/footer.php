@@ -33,9 +33,9 @@
       </div>
 
       <div class="Footer-links">
-        <a class="Footer-link" href="/privacy-policy">Privacy Policy</a>
+        <!-- <a class="Footer-link" href="/privacy-policy">Privacy Policy</a>
         <span class="Footer-divider">|</span>
-        <a class="Footer-link" href="/disclosures">Disclosures</a>
+        <a class="Footer-link" href="/disclosures">Disclosures</a> -->
       </div>
     </div>
 
